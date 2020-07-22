@@ -24,7 +24,7 @@
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
-    <themeProvider id="5b71686a-51e3-4cd4-8591-5df271765959" path="/META-INF/spectre_theme.theme.json"/>
+    <themeProvider id="%THEME_ID%" path="/META-INF/spectre_theme.theme.json"/>
   </extensions>
 
   <actions>
