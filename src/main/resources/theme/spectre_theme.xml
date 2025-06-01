@@ -1,4 +1,5 @@
 <scheme name="Spectre Code Style" version="2" parent_scheme="Darcula">
+  <idea-version since-build="241" until-build="251.*" />
   <colors>
     <option name="BACKGROUND" value="#000F22" />
     <option name="LINE_SPACING" value="1.0" />
@@ -6,7 +7,7 @@
     <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
     <option name="CARET_COLOR" value="#ffffff" />
     <option name="CARET_ROW_COLOR" value="#002E50" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="0" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="#000F22" />
     <option name="DEFAULT_STRING" value="" />
     <option name="DEFAULT_TEXT" value="#BCBEC4" />
     <option name="DOCUMENTATION_COLOR" value="#000F1F" />
@@ -27,7 +28,6 @@
     <option name="ADDED_LINES_COLOR" value="549159" />
     <option name="ANNOTATIONS_COLOR" value="8D9199" />
     <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="CED0D6" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="1E1F22" />
     <option name="DELETED_LINES_COLOR" value="868A91" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="2B2D30" />
     <option name="DOCUMENTATION_COLOR" value="2B2D30" />
@@ -92,11 +92,13 @@
     <option name="TAB_UNSELECTED">
       <value>
         <option name="BACKGROUND" value="#001B32" />
+        <option name="FOREGROUND" value="#ffffff" />
       </value>
     </option>
     <option name="TAB_SELECTED">
       <value>
-        <option name="BACKGROUND" value="#002E50" />
+        <option name="BACKGROUND" value="#000F22" />
+        <option name="FOREGROUND" value="#ffffff" />
       </value>
     </option>
     <option name="TEXT">
@@ -107,7 +109,7 @@
     </option>
     <option name="TAB_SELECTED_INACTIVE">
       <value>
-        <option name="FOREGROUND" value="#2b313b" />
+        <option name="FOREGROUND" value="#ffffff" />
       </value>
     </option>
     <option name="WARNING_ATTRIBUTES">
