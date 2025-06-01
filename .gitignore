@@ -4,5 +4,7 @@ resources/META-INF/plugin.xml
 SpectreTheme.jar
 resources/META-INF/plugin.xml
 .idea
+/.idea/
 /.idea/*
 SpectreTheme.iml
+local.properties
