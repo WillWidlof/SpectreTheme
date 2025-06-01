@@ -3,3 +3,6 @@ out/production/SpectreTheme/META-INF/plugin.xml
 resources/META-INF/plugin.xml
 SpectreTheme.jar
 resources/META-INF/plugin.xml
+.idea
+/.idea/*
+SpectreTheme.iml
