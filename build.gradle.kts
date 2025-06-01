@@ -1,10 +1,14 @@
+import org.jetbrains.intellij.platform.gradle.IntelliJPlatformType
+import org.jetbrains.intellij.platform.gradle.models.ProductRelease
+import org.jetbrains.intellij.platform.gradle.tasks.VerifyPluginTask
+
 plugins {
     id("java")
     id("org.jetbrains.kotlin.jvm") version "1.9.25"
     id("org.jetbrains.intellij.platform") version "2.3.0"
 }
 
-group = "dev.willwidlof.plugin"
+group = "com.widlofapps.theme.spectre"
 version = "1.1.0"
 
 repositories {
@@ -35,6 +39,19 @@ intellijPlatform {
         changeNotes = """
       Initial version
     """.trimIndent()
+    }
+    pluginVerification {
+        ides {
+            ide(IntelliJPlatformType.IntellijIdeaCommunity, "2025.1.1.1")
+            local(file("/Applications/IntelliJ IDEA CE.app/"))
+            recommended()
+            select {
+                types = listOf(IntelliJPlatformType.IntellijIdeaCommunity)
+                channels = listOf(ProductRelease.Channel.RELEASE)
+                sinceBuild = "232"
+                untilBuild = "241.*"
+            }
+        }
     }
 }
 
