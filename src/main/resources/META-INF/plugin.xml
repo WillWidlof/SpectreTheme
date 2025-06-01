@@ -1,0 +1,36 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>dev.willwidlof.plugin.spectretheme</id>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>SpectreTheme</name>
+    <version>1.1.0</version>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="willwidlof@gmail.com" url="https://github.com/WillWidlof/SpectreTheme">Will Widlof</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description><![CDATA[
+      Theme for IntelliJ IDEs aimed at Android Studio and IntelliJ IDEA.<br>
+      <em>UI</em>
+    ]]></description>
+
+    <change-notes><![CDATA[
+      1.1 Fixed several display errors, made the plugin compatible with the new UI<br>
+      <em>UI</em>
+    ]]>
+    </change-notes>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <!-- Extension points defined by the plugin.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="dev.willwidlof.plugin.spectretheme" path="/theme/spectretheme.theme.json"/>
+    </extensions>
+</idea-plugin>

@@ -1,0 +1,57 @@
+{
+  "name": "spectre_theme",
+  "dark": true,
+  "author": "Will Widlof",
+  "editorScheme": "theme/spectre_theme.xml",
+  "ui": {
+    "*": {
+      "background": "#021b3f",
+      "foreground": "#FFFFFF",
+      "infoForeground": "#878d98",
+      "selectionBackground": "#2b313b",
+      "defaultText": "#ffffff",
+      "borderColor": "#2b313b"
+    },
+    "windowBorder": "#021b3f",
+    "Editor.background": "#000F22",
+    "EditorTabs": {
+      "hoverBackground": "#3e4245",
+      "selectedBackground": "#21262e"
+    },
+    "DefaultTabs": {
+      "underlineHeight": 3,
+      "hoverBackground": "#2b313b",
+      "background": "#21262e"
+    },
+    "Borders": {
+      "color": "#292b2f",
+      "ContrastBorderColor": "#2b313b"
+    },
+    "NavBar.borderColor": "#2b313b",
+    "ToolWindow": {
+      "Header": {
+        "background": "#2b313b",
+        "inactiveBackground": "#03192F"
+      },
+      "HeaderTab": {
+        "selectedBackground": "#2b313b",
+        "selectedInactiveBackground": "#2b313b",
+        "hoverInactiveBackground": "#03192F",
+
+        "underlineColor": "#2a313c",
+        "inactiveUnderlineColor": "#2a313c",
+        "underlineHeight": 3
+      },
+      "Button": {
+        "selectedBackground": "#2a313c",
+        "selectedForeground": "#FFFFFF",
+        "hoverBackground": "#2a313c"
+      },
+      "DebuggerTabs.selectedBackground": "2a313c"
+    },
+    "ToolTip": {
+      "background": "#03192F",
+      "Actions.background": "#2a313c"
+    }
+  }
+}
