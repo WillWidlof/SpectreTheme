@@ -10,18 +10,57 @@
       "infoForeground": "#878d98",
       "selectionBackground": "#03295b",
       "defaultText": "#ffffff",
-      "borderColor": "#2b313b"
+      "borderColor": "#2b313b",
+      "Button.default.foreground": "#03326b",
+      "Button.foreground": "#03326b",
+      "CheckBox.select": "#000F22"
     },
     "windowBorder": "#021b3f",
     "Editor.background": "#000F22",
     "EditorPane.background": "#000F22",
     "EditorTabs": {
       "hoverBackground": "#03295b",
-      "background": "#021b3f",
-      "selectedBackground": "#21262e"
+      "background": "#021b3f"
     },
-    "Panel.background": "#021b3f",
+    "Button": {
+      "foreground": "#BBBBBB",
+      "hoverBackground": "#505459",
+      "hoverForeground": "#CCCCCC",
+      "disabledBackground": "#03326b",
+      "disabledForeground": "#808080",
+      "default.endBackground": "#03326b",
+      "default.startBackground": "#03326b",
+      "default.background": "#03326b"
+    },
+    "ToggleButton.background": "#000F22",
+    "ToggleButton.offBackground": "#000F22",
+    "ToggleButton.onBackground": "#000F22",
+    "CheckBox": {
+      "background": "#000F22"
+    },
+    "CheckBoxMenuItem": {
+      "background": "#000F22",
+      "selectionBackground": "#000F22",
+      "disabledBackground": "#000F22"
+    },
+    "ComboBox": {
+      "background": "#000F22",
+      "selectionBackground": "#000F22",
+      "nonEditableBackground": "#000F22",
+      "ArrowButton": {
+        "background": "#000F22",
+        "nonEditableBackground": "#000F22"
+      }
+    },
+    "ComboBoxButton": {
+      "background": "#000F22"
+    },
+    "MenuBar.disabledBackground": "#021b3f",
     "Panel.foreground": "#ffffff",
+    "MainToolbar": {
+      "background": "#021b3f",
+      "inactiveBackground":  "#021b3f"
+    },
     "MainToolbar.background": "#021b3f",
     "MainWindow": {
       "Tab": {
@@ -31,6 +70,11 @@
         "selectedInactiveBackground": "#021b3f",
         "selectedForeground": "#ffffff",
         "borderColor": "#000F22"
+      }
+    },
+    "Notification": {
+      "Button": {
+        "background": "#03326b"
       }
     },
     "DefaultTabs": {
@@ -45,6 +89,7 @@
     "NavBar.borderColor": "#2b313b",
     "ToolWindow": {
       "Button": {
+        "background": "#03326b",
         "selectedBackground": "#03326b",
         "selectedForeground": "#FFFFFF",
         "hoverBackground": "#03326b"
@@ -64,10 +109,8 @@
       "DebuggerTabs.selectedBackground": "2a313c"
     },
     "ToolTip": {
-      "background": "#03192F",
-      "Actions.background": "#03326b"
+      "background": "#03192F"
     },
-    "Button.background": "#03326b",
     "List.hoverBackground": "#03326b",
     "TabbedPane.hoverColor": "#03326b",
     "Component.hoverIconColor": "#03326b",
@@ -76,13 +119,19 @@
     "Tree.hoverBackground": "#03326b",
     "List.hoverInactiveBackground": "#03326b",
     "Tree.selectionInactiveBackground": "#03326b",
-
+    "ActionButton.background": "#03326b",
     "ActionButton.hoverBackground": "#03326b",
     "ActionButton.hoverBorderColor": "#03326b",
     "ActionButton.pressedBackground": "#03326b",
     "ActionButton.pressedBorderColor": "#03326b",
     "List.Button.hoverBackground": "#03326b",
     "TitlePane.inactiveBackground": "#03326b",
-    "TitlePane.Button.hoverBackground": "#03326b"
+    "TitlePane.Button.hoverBackground": "#03326b",
+
+    "ToolWindow.Header.inactiveBackground": "#021b3f",
+    "Popup.Header.inactiveBackground": "#021b3f",
+    "MainWindow.Tab.selectedInactiveBackground": "#021b3f",
+    "EditorPane.inactiveBackground": "#021b3f",
+    "ToolWindow.Button.selectedBackground": "#03326b"
   }
 }
